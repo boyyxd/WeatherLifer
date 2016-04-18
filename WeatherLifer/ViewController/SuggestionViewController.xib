@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuggestionViewController">
+            <connections>
+                <outlet property="imageView" destination="t6n-aC-s0T" id="uGe-oK-nvZ"/>
+                <outlet property="view" destination="hPT-QH-sFg" id="W0W-3x-vll"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="hPT-QH-sFg">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert1.png" translatesAutoresizingMaskIntoConstraints="NO" id="t6n-aC-s0T">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="t6n-aC-s0T" secondAttribute="bottom" id="A6t-vp-s3d"/>
+                <constraint firstItem="t6n-aC-s0T" firstAttribute="top" secondItem="hPT-QH-sFg" secondAttribute="top" id="Sgh-rt-Rw0"/>
+                <constraint firstItem="t6n-aC-s0T" firstAttribute="leading" secondItem="hPT-QH-sFg" secondAttribute="leading" id="fkT-aD-DCS"/>
+                <constraint firstAttribute="trailing" secondItem="t6n-aC-s0T" secondAttribute="trailing" id="te0-Pp-9eE"/>
+            </constraints>
+            <point key="canvasLocation" x="401" y="-41"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alert1.png" width="226" height="191"/>
+    </resources>
+</document>

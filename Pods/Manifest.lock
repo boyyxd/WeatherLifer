@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSONKit (1.5pre)
+  - LLSimpleCamera (2.1.1)
+  - Masonry (0.6.1)
+  - MJPopupViewController (0.4)
+  - MJRefresh (2.0.2)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - pop (1.0.7)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.0)
+  - FMDB (~> 2.5)
+  - JSONKit (~> 1.5pre)
+  - LLSimpleCamera (~> 2.1.1)
+  - Masonry (~> 0.6.0)
+  - MJPopupViewController (~> 0.4)
+  - MJRefresh (~> 2.0.1)
+  - MMDrawerController (~> 0.5.7)
+  - pop (~> 1.0.7)
+  - ReactiveCocoa
+  - SDWebImage (~> 3.7.2)
+  - XHRealTimeBlur
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  JSONKit: bae313ce6a6c444f40489a6c0b023f399888871f
+  LLSimpleCamera: 8fa81a08b2a6b2b10f16b5d872c88b9561e8afb1
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MJPopupViewController: e9ad553a3145eb8126ba2748e872ae7fb25cc605
+  MJRefresh: dfaf2303521c1f1ad71f0f9d2fe781ccea3741de
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+COCOAPODS: 0.37.2
